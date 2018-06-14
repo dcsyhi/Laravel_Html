@@ -18,3 +18,7 @@ Route::get('/', function () {
 Route::get('title', 'TitleController');
 
 Route::get('scene', 'SceneController');
+
+Route::get('hello', 'HelloController@index');
+
+Route::post('hello', 'HelloController@post');

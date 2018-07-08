@@ -13,8 +13,9 @@ return [
     |
     */
 
-    'default' => env('DB_CONNECTION', 'mysql'),
+    'default' => env('DB_CONNECTION', 'sqlite'),
 
+    'database' => env('DB_DATABASE', database_path('/var/www/triforce/database/database.sqlite')),
     /*
     |--------------------------------------------------------------------------
     | Database Connections

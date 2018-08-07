@@ -32,7 +32,6 @@ class TitleController extends Controller
 														</html>
 EOF;
 
-
     }
 }
 

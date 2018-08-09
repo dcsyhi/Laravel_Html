@@ -1,18 +1,18 @@
 @extends('layouts.template')
 
-@section('title', 'Index')
+@section('title', '(=ﾟωﾟ)ﾉ')
 
 @section('content')
-   <p>ここが本文のコンテンツです。</p>
-   <p>必要なだけ記述できます。</p>
+   <p>本文</p>
+   <p>たくさん書くところ</p>
 
    @component('components.message')
        @slot('msg_title')
-	   CAUTION!
+	   囲んでみたよ
 	   @endslot
 
 	   @slot('msg_content')
-	   これはメッセージの表示です。
+	   (/・ω・)/
 	   @endslot
 	@endcomponent
 

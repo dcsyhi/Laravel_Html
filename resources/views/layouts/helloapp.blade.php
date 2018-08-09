@@ -22,7 +22,7 @@
     <h1>@yield('title')</h1>
     @section('menubar')
     <ul>
-        <p class="menutitle">窶ｻ繝｡繝九Η繝ｼ</p>
+        <p class="menutitle">sample</p>
         <li>@show</li>
     </ul>
     <hr size="1">

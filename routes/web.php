@@ -20,3 +20,6 @@ Route::get('title', 'TitleController');
 Route::get('scene', 'SceneController');
 
 Route::get('hello', 'HelloController@index');
+
+Route::resource('items', 'ItemsController');
+

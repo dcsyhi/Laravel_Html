@@ -13,10 +13,7 @@ class ItemsController extends Controller
      */
     public function index()
     {
-        $data = [
-		    'msg'=>'これはLaravelを利用したサンプルです。',
-			];
-			return view('items.index', $data);
+			return view('items.index');
     }
 
     /**

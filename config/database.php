@@ -13,9 +13,10 @@ return [
     |
     */
 
-    'default' => env('DB_CONNECTION', 'sqlite'),
+    'default' => env('DB_CONNECTION', 'mysql'),
 
-    'database' => env('DB_DATABASE', database_path('/var/www/triforce/database/database.sqlite')),
+    'database' => env('DB_DATABASE', 'laravel_test'),
+   // 'database' => env('DB_DATABASE', database_path('/var/www/triforce/database/database.sqlite')),
     /*
     |--------------------------------------------------------------------------
     | Database Connections
@@ -44,9 +45,9 @@ return [
             'driver' => 'mysql',
             'host' => env('DB_HOST', '127.0.0.1'),
             'port' => env('DB_PORT', '3306'),
-            'database' => env('DB_DATABASE', 'forge'),
-            'username' => env('DB_USERNAME', 'forge'),
-            'password' => env('DB_PASSWORD', ''),
+            'database' => env('DB_DATABASE', 'laravel_test'),
+            'username' => env('DB_USERNAME', 'pi'),
+            'password' => env('DB_PASSWORD', 'A90UM1Qo'),
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
